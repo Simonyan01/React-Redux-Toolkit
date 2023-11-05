@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  margin-top: 7rem;
+  overflow-y: hidden;
+  justify-content: center;
+  background: rgb(206, 233, 240);
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+  body {
+    margin-top: 16rem;
+  }
+}
